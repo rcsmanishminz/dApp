@@ -1,7 +1,6 @@
 import React, { useState,useEffect } from "react";
 import { styled } from "@mui/system";
-import { Grid, TextField, Paper, Box } from "@mui/material";
-import { UserOutlined } from "@ant-design/icons";
+import { Grid, TextField, Box } from "@mui/material";
 import { getItemDetailsById } from "../../Services/Config/config";
 
 const Wrapper = styled("div")`
