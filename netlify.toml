@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/admin/api/*"
+  to = "http://demo.d-crm.in/admin/api/:splat"
+  status = 200
+  force = true
